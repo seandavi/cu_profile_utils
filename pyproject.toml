@@ -14,6 +14,11 @@ lxml = "^4.9.1"
 networkx = "^2.8.8"
 structlog = "^22.3.0"
 
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+
 [tool.poetry.dev-dependencies]
 black = "^22.10.0"
 mypy = "^0.991"
