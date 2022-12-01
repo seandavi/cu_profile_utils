@@ -90,5 +90,12 @@ A network connection and ~4GB of RAM are needed. The build process will proceed 
 | publication_count_all_authors | integer | The total number of papers in the Colorado PROFILES system with this MeSH term |
 | concept_score | float | A (unitless) score representing the extent to which this author is associated with this MeSH term (or concept) |
 
+## Reporting problems
 
+## Develop
 
+### Local testing
+
+### Documentation
+
+### Contribution
