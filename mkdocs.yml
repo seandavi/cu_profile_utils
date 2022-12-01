@@ -1,9 +1,24 @@
 site_name: Colorado Profiles Utilities
+repo_url: https://github.com/seandavi/cu_profile_utils
 
 theme:
   name: material
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 plugins:
+  - search
   - gen-files:
       scripts:
       - docs/gen_ref_pages.py
