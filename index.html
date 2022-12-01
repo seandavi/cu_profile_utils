@@ -674,6 +674,10 @@
 <pre><code class="language-python">python -m cu_profile_utils.pipeline
 </code></pre>
 <p>A network connection and ~4GB of RAM are needed. The build process will proceed to scrape all records, requiring &gt;20,000 web requests (current as of November, 2022). A set of csv files representing the output will be created in the current working directory. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The build process for the output files currently takes approximately 1 hour due to network bandwidth and server limitations.</p>
+</div>
 <h2 id="output-files">Output files</h2>
 <h3 id="profile_tablecsv"><code>profile_table.csv</code></h3>
 <table>
