@@ -33,6 +33,8 @@ tox = "^3.27.1"
 pytest = {extras = ["anyio"], version = "^7.2.0"}
 anyio = "^3.6.2"
 trio = "^0.22.0"
+mkdocs-graphviz = "^1.4.91"
+ghp-import = "^2.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

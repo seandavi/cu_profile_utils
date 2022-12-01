@@ -779,6 +779,17 @@ python-versions = ">=3.7,<4.0"
 mkdocs = ">=1.0.3,<2.0.0"
 
 [[package]]
+name = "mkdocs-graphviz"
+version = "1.4.91"
+description = "Render Graphviz graphs in Mkdocs, as inline SVGs and PNGs, natively & dynamically compatible with Mkdocs Light & Dark Themes, directly from your Markdown"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Markdown = ">=2.3.1"
+
+[[package]]
 name = "mkdocs-literate-nav"
 version = "0.5.0"
 description = "MkDocs plugin to specify the navigation in Markdown instead of YAML"
@@ -1716,7 +1727,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "64f4372a8c55f140e8c576b86a15849d30dcd1c1f117db406cbe10ef630aa7ee"
+content-hash = "3ac4865f2384c8b6217ade83940efc677f7f37228293019a73dc7000c66c9ecb"
 
 [metadata.files]
 anyio = []
@@ -1777,6 +1788,7 @@ mistune = []
 mkdocs = []
 mkdocs-autorefs = []
 mkdocs-gen-files = []
+mkdocs-graphviz = []
 mkdocs-literate-nav = []
 mkdocs-material = []
 mkdocs-material-extensions = []

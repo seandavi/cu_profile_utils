@@ -16,3 +16,6 @@ plugins:
             show_source: true
       watch:
         - src/cu_profile_utils
+
+markdown_extensions:
+  - mkdocs_graphviz
