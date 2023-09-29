@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cu_profile_utils"
-version = "0.1.0"
+version = "0.2.0"
 description = "Utilities for scraping and analyzing University of Colorado Profiles data."
 authors = ["Sean Davis <seandavi@gmail.com>"]
 
