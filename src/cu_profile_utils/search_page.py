@@ -59,7 +59,7 @@ class SearchPage:
         page = self.page
         page_size = self.page_size
         url = f"https://profiles.ucdenver.edu/search/default.aspx?searchtype=people&searchfor=&exactphrase=false&perpage={page_size}&offset=0&page={page}&totalpages=569&searchrequest=A81BSfTwU3GNm4liSODkW6vB3EBYO6gz+a5TY1bFhuz1tc7ngL4Orww3064KoquGaRdozjhWRGlrnur5IbaEcMH3TeE05jmp/c7agcYTrzG/rrN5T5p39rbdUtWdCA0xO6jz/+zNo8xTen6DVgqqi0W/y1wHaBbEaTD7d+ObAfEiPSt4sYkjfpHHCVWp3IgQjZuJYkjg5FtrbjF9BEDCXidTb5mQuzDHyB9Btw8xWu0u+sg0NH5oV8eO5TZfqG6zAJei5w7JqjuiyOFytEGpzItfRAJL6BXOyZmTRCU0RtrqmPKU0fOLSVV35kew5OQiQnv3EOh+q7Y=&sortby=&sortdirection=&showcolumns=11"
-        response = httpx.get(url, timeout=20)
+        response = httpx.get(url, timeout=60)
         soup = BeautifulSoup(response.text, "html.parser")
         self._soup = soup
 
