@@ -5,14 +5,14 @@ description = "Utilities for scraping and analyzing University of Colorado Profi
 authors = ["Sean Davis <seandavi@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.13"
 httpx = "^0.23.1"
 bs4 = "^0.0.1"
-pandas = "^1.5.2"
 tenacity = "^8.1.0"
 lxml = "^4.9.1"
 networkx = "^2.8.8"
 structlog = "^22.3.0"
+pandas = "^2.1.1"
 
 [tool.pytest.ini_options]
 pythonpath = [
