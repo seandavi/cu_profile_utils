@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "cu_profile_utils"
-version = "0.2.2"
+version = "0.2.3"
 description = "Utilities for scraping and analyzing University of Colorado Profiles data."
 authors = ["Sean Davis <seandavi@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.9"
 httpx = ">=0.24.0"
 bs4 = "^0.0.1"
 tenacity = "^8.1.0"
